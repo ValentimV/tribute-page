@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Dr. Norman Borlaug</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="description" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body> 
+  <main>
+  <h1>Dr. Norman Borlaug</h1>
+  <p id="tribute-info">The man who saved a billion lives</p>
+  <figure>
+    <div id="img-div">
+      <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="image od dr. norman with other man" />
+      <figcaption id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger. 
+      </figcaption>
+    </div>
+  </figure>
+  <div>
+  <fieldset>
+    <h3>Here's a time line of Dr.Borlaug's life: </h3>
+    <ul>
+    <li><strong>1914</strong> - Born in Cresco, lowa</li> <br>
+    <li><strong>1933</strong> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li> <br>
+    <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li> <br>
+    <li><strong>1937</strong> - Finishes university and takes a job in the US Forestry Service
+  </li> <br>
+    <li><strong>1938</strong> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li> <br>
+    <li><strong>1941</strong> - Tries to enroll in the military after the Pearl Harbor attack, but is rejected. Instead, the military asked his lab to work on waterproof glue, DDT to control malaria, disinfectants, and other applied science.</li> <br>
+    <li><strong>1942</strong> - Receives a Ph.D. in Genetics and Plant Pathology</li> <br>
+    <li><strong>1944</strong> - Rejects a 100% salary increase from Dupont, leaves behind his pregnant wife, and flies to Mexico to head a new plant pathology program. Over the next 16 years, his team breeds 6,000 different strains of disease resistent wheat - including different varieties for each major climate on Earth.</li> <br>
+    <li><strong>1945</strong> - Discovers a way to grown wheat twice each season, doubling wheat yields</li> <br>
+    <li><strong>1953</strong> - crosses a short, sturdy dwarf breed of wheat with a high-yeidling American breed, creating a strain that responds well to fertilizer. It goes on to provide 95% of Mexico's wheat.</li> <br>
+    <li><strong>1962</strong> - Visits Delhi and brings his high-yielding strains of wheat to the Indian subcontinent in time to help mitigate mass starvation due to a rapidly expanding population</li> <br>
+    <li><strong>1970</strong> - receives the Nobel Peace Prize</li> <br>
+    <li><strong>1983</strong> - helps seven African countries dramatically increase their maize and sorghum yields</li> <br>
+    <li><strong>1984</strong> - becomes a distinguished professor at Texas A&M University</li> <br>
+    <li><strong>2005</strong> - states "we will have to double the world food supply by 2050." Argues that genetically modified crops are the only way we can meet the demand, as we run out of arable land. Says that GM crops are not inherently dangerous because "we've been genetically modifying plants and animals for a long time. Long before we called it science, people were selecting the best breeds."</li> <br />
+    <li><strong>2009</strong> - dies at the age of 95.</li> <br />
+    <br />
+    </ul>
+    <blockquote>
+     <p>"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress." <br /> <br />
+    -- Indian Prime Minister Manmohan Singh</p>
+    </blockquote>
+  </fieldset>
+  <h3>If you have a time, you should read more about this incredible human being on his <a target="_blank" href="https://en.wikipedia.org/wiki/Norman_Borlaug">Wikipedia.org</a> </h3>
+  </div>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3%;
+  font-family: system-ui, sans-serif;
+  color: #333;
+  background-color: Gainsboro;
+
+}
+main {
+  padding: ;
+}
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  color: white;
+}
+.img-div, h1, p, h3, figcaption {
+  text-align: center;
+}
+ul, .tribute {
+  display: block;
+  list-style-type: disc;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;  
+}
+ul {
+  max-width: 550px;
+  margin: auto
+}
+figure {
+  background-color: white;
+}
+fieldset {
+  margin: 37px;
+  border: none;
+}
+blockquote {
+  font-style: italic;
+  text-align: left;
+  margin: 0 auto 50px auto;
+  max-width: 545px;
+}
